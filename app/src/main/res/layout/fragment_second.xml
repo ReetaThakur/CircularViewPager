@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#2E8B57"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:src="@drawable/green"
+        android:id="@+id/image"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share and edit together"
+        android:textStyle="bold"
+        android:id="@+id/go"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write on your own and invite people for contribute"
+        android:textSize="30sp"
+        android:id="@+id/internet"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"/>
+</LinearLayout>
